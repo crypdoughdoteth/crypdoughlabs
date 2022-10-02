@@ -26,7 +26,7 @@ const Onboarding: NextPage = () => {
 
     const [formSubmitted, setForm] = useState(false);
 
-    const handleSubmit = async values => {
+    const handleSubmit = async (values : any) => {
         setForm(true);
         toast.success('Form Submitted Sucessfully!', {
             position: "top-right",
