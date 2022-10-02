@@ -27,7 +27,7 @@ const SideBar = () => {
     )
 };
 
-const SideBarIcon = ({ icon }) => {
+const SideBarIcon = ({ icon }: any) => {
     return (<div className="sidebar-icon">
         {icon}
     </div>
