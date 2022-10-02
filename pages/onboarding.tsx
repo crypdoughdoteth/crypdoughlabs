@@ -50,7 +50,7 @@ const Onboarding: NextPage = () => {
         <div className='flex items-center justify-center h-screen w-screen bg-center bg-gradient-to-r from-cyan-300 to-blue-300'>
             <h1 className='fixed top-20 font-extrabold underline decoration-double underline-offset-8 text-4xl'> Client Onboarding Form </h1>
             <Box sx={{ height: 500, fontWeight: 600 }} mx="auto">
-                <form onSubmit={submitForm.onSubmit(values => handleSubmit(values))}>
+                <form onSubmit={submitForm.onSubmit((values : any) => handleSubmit(values))}>
                     <TextInput
                         withAsterisk
                         label="Email"
