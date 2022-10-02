@@ -25,7 +25,7 @@ const aboutme: NextPage = () => {
         <p className="mt-2">
 
             In early 2022 I was advising Stratton Dogemont as an digital asset analyst and I most notably predicted the downfall of UST in early February due to clear 
-            vulnerabilities in their monetary policy, despite organizational and seasoned hedge funds failures at risk management. In March 2022, I began my first venture with some incredible people I met through NFTs: The Crypto Cannabis Church. Only a few
+            vulnerabilities in their monetary policy, despite some organizational failures at risk management in the industry. In March 2022, I began my first venture with some incredible people I met through NFTs: The Crypto Cannabis Church. Only a few
             short months into my time as the VP of Development, I started contributing to open source code at Developer DAO and making some cool friends. I'm
             always learning new things and frameworks, like recently I learned Next.JS and Tailwind CSS (to put this website together, among other things). I am most interested in Ethereum, 
             rollup solutions, EIP 4844, and disrupting traditional industries with distributed ledger technology. Come engage with the rising stars of DeFi!   
