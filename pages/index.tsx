@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 
 import Link from "next/link";
 
-const SideBarIcon = ({ icon }) => {
+const SideBarIcon = ({ icon }: any) => {
   return (<div className="fixed sidebar-icon h-10 w-10 text-gray-400 right-10 bottom-10">
     {icon}
   </div>
