@@ -28,7 +28,7 @@ const aboutme: NextPage = () => {
             vulnerabilities in their monetary policy, despite some organizational failures at risk management in the industry. In March 2022, I began my first venture with some incredible people I met through NFTs: The Crypto Cannabis Church. Only a few
             short months into my time as the VP of Development, I started contributing to open source code at Developer DAO and making some cool friends. I am
             always learning new things and frameworks, like recently I learned Next.JS and Tailwind CSS (to put this website together, among other things). I am most interested in Ethereum, 
-            rollup solutions, EIP 4844, and disrupting traditional industries with distributed ledger technology. Come engage with the rising stars of DeFi!   
+            rollup solutions, EIP 4844, and disrupting traditional industries with distributed ledger technology. Come engage the rising stars of DeFi!   
 
         </p>
         
