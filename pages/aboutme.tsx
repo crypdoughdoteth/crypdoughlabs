@@ -15,7 +15,7 @@ const aboutme: NextPage = () => {
         </Head>
         <p className="fixed top-20 font-extrabold underline decoration-double underline-offset-8 text-xl 2xl:text-4xl"> More About Crypdough Labs</p>
     
-    <div className="box-content text-sm xl:text-base shadow-lg mt-10 pt-5 pb-5 pl-5 pr-5 w-1/2 h-fit indent-8 bg-white/30 ">
+    <div className="box-content text-xs xl:text-base shadow-lg mt-10 pt-5 pb-5 pl-5 pr-5 w-1/2 h-fit indent-8 bg-white/30 ">
         <p>
             GM! Welcome to my freelance agency! This organization was simply established to house and organize my freelance work and work with friends. It comes as a suprise to many that I do not come from a STEM background. I spent most of my time in college studying foundational questions in philosophy and economics.
             Once I graduated with my Bachelors of Science in Philosophy, I earned my certification in blockchain and business strategy at the University of Oxford with honors. This course helped me gain exposure to some applications of this technology and basic protocol knowledge of both 
