@@ -17,10 +17,15 @@ const aboutme: NextPage = () => {
     
     <div className="box-content shadow-lg pt-5 pb-5 pl-5 pr-5 max-h-screen-sm max-w-screen-sm font-medium indent-8 bg-white/30 text-base ">
         <p>
-            GM! It is me, Crypdough. Welcome to my freelance agency! This organization was simply established to house and organize my freelance work and work with friends. It comes as a suprise to many that I do not come from a STEM background. I spent most of my time in college studying foundational questions in philosophy and economics.
+        GM! It is me, Crypdough. Welcome to my freelance agency! This organization was simply established to house and organize my freelance work and work with friends. It comes as a suprise to many that I do not come from a STEM background. I spent most of my time in college studying foundational questions in philosophy and economics.
             Once I graduated with my Bachelors of Science in Philosophy, I earned my certification in blockchain and business strategy at the University of Oxford with honors. This course helped me gain exposure to some applications of this technology and basic protocol knowledge of both 
             Bitcoin and Ethereum. Concurrently, I learned my first programming language: solidity. Through the power of open-source content in and around web3, I was able to successfully teach myself how to code. In a position where I stood more knowledgable than ever before,
+            I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.
+<<<<<<< HEAD
             I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.          
+=======
+            I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.       
+>>>>>>> 98f926cebb40c58597411e54d39165d0619f9e0a
      </p>
         <p className="mt-2">
             
