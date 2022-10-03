@@ -21,11 +21,6 @@ const aboutme: NextPage = () => {
             Once I graduated with my Bachelors of Science in Philosophy, I earned my certification in blockchain and business strategy at the University of Oxford with honors. This course helped me gain exposure to some applications of this technology and basic protocol knowledge of both 
             Bitcoin and Ethereum. Concurrently, I learned my first programming language: solidity. Through the power of open-source content in and around web3, I was able to successfully teach myself how to code. In a position where I stood more knowledgable than ever before,
             I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.
-<<<<<<< HEAD
-            I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.          
-=======
-            I was motivated and spent extraordinary amounts of time to specialize in smart contract development and security on the EVM.       
->>>>>>> 98f926cebb40c58597411e54d39165d0619f9e0a
      </p>
         <p className="mt-2">
             
