@@ -6,14 +6,14 @@ const aboutme: NextPage = () => {
 
 
 
-    return <div className= 'flex items-center justify-center h-screen w-screen bg-center bg-gradient-to-r from-cyan-400 to-blue-400'>
+    return <div className= 'flex shrink-1 items-center justify-center h-screen w-screen bg-center bg-gradient-to-r from-cyan-400 to-blue-400'>
         <Head>
         <title>
             About Us
         </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <p className="fixed top-20 font-extrabold underline decoration-double underline-offset-8 text-xl 2xl:text-4xl"> More About Crypdough Labs</p>
+        <p className="fixed top-10 font-extrabold underline decoration-double underline-offset-8 text-xl 2xl:text-4xl"> More About Crypdough Labs</p>
     
     <div className="box-content text-xs xl:text-base shadow-lg mt-10 pt-5 pb-5 pl-5 pr-5 w-1/2 h-fit indent-8 bg-white/30 ">
         <p>
@@ -28,11 +28,13 @@ const aboutme: NextPage = () => {
         
     </div>
 
-    <a><Link href="/onboarding"><button className="absolute self-center text-white bg-black rounded-lg ml-10 pt-2 pb-2 pl-5 pr-5 animate-bounce"> Sign-Up! </button></Link></a>
+    <a><Link href="/onboarding"><button className="absolute self-center text-white bg-black rounded-lg ml-2 pt-2 pb-2 pl-5 pr-5 animate-bounce"> Sign-Up! </button></Link></a>
 
-
-    <p className="absolute self-center bottom-8 underline underline-offset-4 text-xs lg:text-lg font-extrabold decoration-pink-500 animate-pulse"> Blockchain Consulting x E2E Development x Smart Contract Audits</p>
-    
+<div className="fixed self-center text-center bottom-6 underline mt-10 mb-5 underline-offset-4 text-xs lg:text-lg font-extrabold decoration-pink-500 animate-pulse">
+    <p className=""> Blockchain Consulting</p>
+    <p className=""> E2E Development </p>
+    <p className=""> Smart Contract Audits </p>
+</div>
     
     </div>
 
