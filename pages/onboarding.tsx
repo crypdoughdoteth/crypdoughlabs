@@ -48,14 +48,14 @@ const Onboarding: NextPage = () => {
 
     return (
         <div className='flex items-center justify-center h-screen w-screen bg-center bg-gradient-to-r from-cyan-300 to-blue-300'>
-            <h1 className='fixed top-20 font-extrabold underline decoration-double underline-offset-8 text-4xl'> Client Onboarding Form </h1>
+            <h1 className='fixed top-20 font-extrabold underline decoration-double underline-offset-8 text-xl 2xl:text-4xl'> Client Onboarding Form </h1>
             <Box sx={{ height: 500, fontWeight: 600 }} mx="auto">
                 <form onSubmit={submitForm.onSubmit((values : any )=> handleSubmit(values))}>
                     <TextInput
                         withAsterisk
                         label="Email"
                         placeholder="your@email.com"
-
+                        size="xs"
                         {...submitForm.getInputProps('email')}
                     />
                     <Space h="md" />
@@ -63,7 +63,7 @@ const Onboarding: NextPage = () => {
                         withAsterisk
                         label="Full Name"
                         placeholder="John Doe"
-
+                        size="xs"
                         {...submitForm.getInputProps('full_name')}
                     />
                     <Space h="md" />
@@ -71,7 +71,7 @@ const Onboarding: NextPage = () => {
                         withAsterisk
                         label="Business"
                         placeholder="Your Business Name"
-
+                        size="xs"
                         {...submitForm.getInputProps('business')}
                     />
                     <Space h="md" />
@@ -94,6 +94,7 @@ const Onboarding: NextPage = () => {
                         label="How are you interested in using our services?"
                         placeholder=" "
                         padding="100px"
+                        size="xs"
                         {...submitForm.getInputProps('message')}
                     />
 
@@ -109,3 +110,4 @@ const Onboarding: NextPage = () => {
 }
 
 export default Onboarding
+
