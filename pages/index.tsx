@@ -13,13 +13,17 @@ const SideBarIcon = ({ icon }: any) => {
 const Home: NextPage = () => {
 
   return (
-      <div className='flex auto-cols-max items-center justify-center h-screen w-screen bg-center bg-auto bg-gradient-to-r from-cyan-500 to-blue-500'>
+      <div className='flex flex-col items-center justify-center h-screen w-screen bg-center bg-auto bg-gradient-to-r from-cyan-500 to-blue-500'>
 
-        <span className='box-border justify-center h-200 w-1/4 text-center text-white bg-black rounded-lg opacity-75 shadow-xl break-inside-auto'>
+        <span className='box-border justify-center h-200 w-fit text-center text-white bg-black rounded-lg opacity-75 shadow-xl break-inside-auto'>
           <h1 className="font-extrabold text-xl lg:text-4xl 2xl:text-6xl ml-5 mr-5 mt-5 mb-5 shrink">Crypdough Labs </h1>
           <h2 className=" mr-5 mb-5 ml-5 font-bold text-xl"><i> Build Brighter </i></h2>
         </span>
-        <a><Link href="/aboutme"><button className="Fixed bottom-10 pl-5 pr-5 ml-10 bg-black text-white w-100 h-10 rounded-lg animate-bounce">About Us!</button></Link></a>
+        <span className=''>
+          <a>
+            <Link href="/aboutme"><button className="pl-5 pr-5 mt-10 bg-black text-white w-100 h-10 rounded-lg animate-bounce">About Us!</button></Link>
+          </a>
+        </span>
         <Link href="https://www.twitter.com/crypdoughdoteth/">
           <a><SideBarIcon icon={<FaTwitter size="25" />} /></a>
         </Link>
@@ -30,3 +34,4 @@ const Home: NextPage = () => {
 };
 
 export default Home
+
